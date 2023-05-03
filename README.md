@@ -1,5 +1,5 @@
 # ESM
-![Build Status](https://github.com/makerdao/esm/actions/workflows/.github/workflows/tests.yaml/badge.svg?branch=v1.2)
+![Build Status](https://github.com/indefibank/esm/actions/workflows/.github/workflows/tests.yaml/badge.svg?branch=v1.2)
 
 Emergency Shutdown Module
 
@@ -8,11 +8,11 @@ Emergency Shutdown Module
 The ESM is a contract with the ability to call `end.cage()`, i.e. trigger an
 Emergency Shutdown (aka Global Settlement).
 
-MKR holders `join` their funds, which are then immediately burnt. When the ESM's
+GOV holders `join` their funds, which are then immediately burnt. When the ESM's
 internal `sum` balance is equal to or greater than the `min` threshold, the ESM
 can be `fire`d.
 
-It is meant to be used by an MKR minority to thwart two types of attack:
+It is meant to be used by an GOV minority to thwart two types of attack:
 
 * malicious governance
 * critical bug
