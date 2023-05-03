@@ -40,7 +40,7 @@ contract ESM {
 
     uint256 constant WAD = 10 ** 18;
 
-    GemLike public immutable gem;   // collateral (MKR token)
+    GemLike public immutable gem;   // collateral (GOV token)
     address public immutable proxy; // Pause proxy
 
     mapping(address => uint256) public wards; // auth
